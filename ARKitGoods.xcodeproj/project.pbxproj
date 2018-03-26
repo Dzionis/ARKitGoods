@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C88128C20697B4E00520200 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C88128B20697B4E00520200 /* products.json */; };
 		F287FD262068E514008AF3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F287FD252068E514008AF3F0 /* AppDelegate.swift */; };
 		F287FD282068E514008AF3F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F287FD272068E514008AF3F0 /* ViewController.swift */; };
 		F287FD2B2068E514008AF3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F287FD292068E514008AF3F0 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C88128B20697B4E00520200 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		F287FD222068E514008AF3F0 /* ARKitGoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitGoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F287FD252068E514008AF3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F287FD272068E514008AF3F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C88128A20697B4E00520200 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C88128B20697B4E00520200 /* products.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F287FD192068E513008AF3F0 = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +70,9 @@
 		F287FD242068E514008AF3F0 /* ARKitGoods */ = {
 			isa = PBXGroup;
 			children = (
-				F287FD402068EAA0008AF3F0 /* MVC */,
 				F287FD252068E514008AF3F0 /* AppDelegate.swift */,
+				F287FD402068EAA0008AF3F0 /* MVC */,
+				5C88128A20697B4E00520200 /* Resources */,
 				F287FD292068E514008AF3F0 /* Main.storyboard */,
 				F287FD2C2068E514008AF3F0 /* Assets.xcassets */,
 				F287FD2E2068E514008AF3F0 /* LaunchScreen.storyboard */,
@@ -73,8 +84,8 @@
 		F287FD402068EAA0008AF3F0 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
-				F287FD412068EAA0008AF3F0 /* Models */,
 				F287FD422068EAA0008AF3F0 /* Controllers */,
+				F287FD412068EAA0008AF3F0 /* Models */,
 				F287FD432068EAA0008AF3F0 /* Views */,
 			);
 			path = MVC;
@@ -172,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C88128C20697B4E00520200 /* products.json in Resources */,
 				F287FD302068E514008AF3F0 /* LaunchScreen.storyboard in Resources */,
 				F287FD2D2068E514008AF3F0 /* Assets.xcassets in Resources */,
 				F287FD2B2068E514008AF3F0 /* Main.storyboard in Resources */,

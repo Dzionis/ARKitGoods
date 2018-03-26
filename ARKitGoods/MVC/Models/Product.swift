@@ -19,4 +19,12 @@ class Product: NSObject {
         imageName = dictionary["image"] as? String
     }
     
+    class func products(array: [Dictionary<String, AnyObject>]) -> [Product] {
+        var products:[Product] = []
+        for dict in array {
+           products.append(Product(dictionary: dict as NSDictionary!))
+        }
+        return products
+    }
+    
 }
