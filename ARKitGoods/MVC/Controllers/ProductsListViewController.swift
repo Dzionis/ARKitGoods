@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProductsListViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     var productList = [Product]()
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension ProductsListViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return productList.count
@@ -55,10 +55,15 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         cell.configure(productList[indexPath.row])
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let detailsViewController = ProductDetailsViewController.instantiateFromStoryboard() as ProductDetailsViewController
+        self.navigationController?.pushViewController(detailsViewController, animated: true)
+    }
 }
 
 //https://www.raywenderlich.com/136159/uicollectionview-tutorial-getting-started
-extension ViewController : UICollectionViewDelegateFlowLayout {
+extension ProductsListViewController : UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
