@@ -37,6 +37,6 @@ class ProductBuyTableViewCell: UITableViewCell {
     }
 
     @IBAction func tryActionClicked(_ sender: UIButton) {
-        delegate?.buyClicked(sender)
+        delegate?.tryClicked(sender)
     }
 }

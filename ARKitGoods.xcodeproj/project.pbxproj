@@ -12,6 +12,8 @@
 		5C0A2CC1206C221900A4B6BC /* UIStoryboard+ARG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A2CC0206C221900A4B6BC /* UIStoryboard+ARG.swift */; };
 		5C0A2CC5206F898C00A4B6BC /* ProductDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A2CC4206F898C00A4B6BC /* ProductDetailsTableViewCell.swift */; };
 		5C0A2CC8206FAA3B00A4B6BC /* ProductBuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A2CC7206FAA3B00A4B6BC /* ProductBuyTableViewCell.swift */; };
+		5C0A2CCA2072CFC200A4B6BC /* ProductARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A2CC92072CFC200A4B6BC /* ProductARViewController.swift */; };
+		5C0A2CCC2072D37200A4B6BC /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A2CCB2072D37100A4B6BC /* Models.scnassets */; };
 		5C88128C20697B4E00520200 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C88128B20697B4E00520200 /* products.json */; };
 		F287FD262068E514008AF3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F287FD252068E514008AF3F0 /* AppDelegate.swift */; };
 		F287FD282068E514008AF3F0 /* ProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F287FD272068E514008AF3F0 /* ProductsListViewController.swift */; };
@@ -29,6 +31,8 @@
 		5C0A2CC0206C221900A4B6BC /* UIStoryboard+ARG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+ARG.swift"; sourceTree = "<group>"; };
 		5C0A2CC4206F898C00A4B6BC /* ProductDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		5C0A2CC7206FAA3B00A4B6BC /* ProductBuyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductBuyTableViewCell.swift; sourceTree = "<group>"; };
+		5C0A2CC92072CFC200A4B6BC /* ProductARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductARViewController.swift; sourceTree = "<group>"; };
+		5C0A2CCB2072D37100A4B6BC /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		5C88128B20697B4E00520200 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		F287FD222068E514008AF3F0 /* ARKitGoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitGoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F287FD252068E514008AF3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 				F287FD402068EAA0008AF3F0 /* MVC */,
 				5C88128A20697B4E00520200 /* Resources */,
 				F287FD292068E514008AF3F0 /* Main.storyboard */,
+				5C0A2CCB2072D37100A4B6BC /* Models.scnassets */,
 				F287FD2C2068E514008AF3F0 /* Assets.xcassets */,
 				F287FD2E2068E514008AF3F0 /* LaunchScreen.storyboard */,
 				F287FD312068E514008AF3F0 /* Info.plist */,
@@ -166,6 +171,7 @@
 			children = (
 				F287FD272068E514008AF3F0 /* ProductsListViewController.swift */,
 				5C0A2CB8206C15B700A4B6BC /* ProductDetailsViewController.swift */,
+				5C0A2CC92072CFC200A4B6BC /* ProductARViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 				5C88128C20697B4E00520200 /* products.json in Resources */,
 				F287FD302068E514008AF3F0 /* LaunchScreen.storyboard in Resources */,
 				F287FD2D2068E514008AF3F0 /* Assets.xcassets in Resources */,
+				5C0A2CCC2072D37200A4B6BC /* Models.scnassets in Resources */,
 				F287FD2B2068E514008AF3F0 /* Main.storyboard in Resources */,
 				F287FD462068EB53008AF3F0 /* ProductCollectionViewCell.xib in Resources */,
 			);
@@ -266,6 +273,7 @@
 				5C0A2CC5206F898C00A4B6BC /* ProductDetailsTableViewCell.swift in Sources */,
 				F287FD4A2068ED62008AF3F0 /* Product.swift in Sources */,
 				F287FD282068E514008AF3F0 /* ProductsListViewController.swift in Sources */,
+				5C0A2CCA2072CFC200A4B6BC /* ProductARViewController.swift in Sources */,
 				5C0A2CB9206C15B700A4B6BC /* ProductDetailsViewController.swift in Sources */,
 				F287FD262068E514008AF3F0 /* AppDelegate.swift in Sources */,
 				5C0A2CBE206C20EF00A4B6BC /* InstantiatableFromStoryboard.swift in Sources */,

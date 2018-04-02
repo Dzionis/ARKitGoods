@@ -1,17 +1,23 @@
-[
+ [
   {
-    "name": "Apple Macbook Air 11.6 ",
-    "price": "199.99 $",
-    "image": "placeholder"
+  "name": "Apple Macbook Air 11.6 ",
+  "price": "199.99 $",
+  "details": "Bla bla bla details",
+  "model": "chair",
+  "image": "placeholder"
   },
   {
-    "name": "Apple Macbook Air 11.6 ",
-    "price": "199.99 $",
-    "image": "placeholder"
+  "name": "Apple Macbook Air 11.6 ",
+  "price": "199.99 $",
+  "details": "Bla bla bla details",
+  "model": "table",
+  "image": "placeholder"
   },
   {
-    "name": "Apple Macbook Air 11.6 ",
-    "price": "199.99 $",
-    "image": "placeholder"
+  "name": "Apple Macbook Air 11.6 ",
+  "price": "199.99 $",
+  "details": "Bla bla bla details",
+  "model": "chair",
+  "image": "placeholder"
   }
-]
+  ]

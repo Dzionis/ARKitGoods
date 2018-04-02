@@ -64,6 +64,8 @@ extension ProductDetailsViewController: ProductBuyTableViewCellDelegate {
     }
     
     func tryClicked(_ button: UIButton) {
-        
+        let arViewController = ProductARViewController.instantiateFromStoryboard() as ProductARViewController
+        arViewController.productName = product?.model
+        self.navigationController?.pushViewController(arViewController, animated: true)
     }
 }

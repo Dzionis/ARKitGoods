@@ -44,16 +44,7 @@
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Fwp-vW-l6C">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                    </collectionViewCell>
-                                </cells>
+                                <cells/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="Tmw-jB-0i7"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="qEs-SL-agz"/>
@@ -212,6 +203,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="89d-h7-f71" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1080.8" y="130.88455772113943"/>
+        </scene>
+        <!--ProductAR View Controller-->
+        <scene sceneID="Q51-Pr-yL1">
+            <objects>
+                <viewController storyboardIdentifier="ProductARViewController" id="pTc-0n-dvT" customClass="ProductARViewController" customModule="ARKitGoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DS2-bv-Uuf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" autoenablesDefaultLighting="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R2n-OC-riS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <outlet property="delegate" destination="pTc-0n-dvT" id="0na-uS-6cq"/>
+                                </connections>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="R2n-OC-riS" firstAttribute="leading" secondItem="Iw8-dT-n91" secondAttribute="leading" id="37k-qb-en0"/>
+                            <constraint firstItem="Iw8-dT-n91" firstAttribute="trailing" secondItem="R2n-OC-riS" secondAttribute="trailing" id="Gw7-Fo-aRR"/>
+                            <constraint firstItem="Iw8-dT-n91" firstAttribute="bottom" secondItem="R2n-OC-riS" secondAttribute="bottom" id="e6Q-35-Y6Z"/>
+                            <constraint firstItem="R2n-OC-riS" firstAttribute="top" secondItem="DS2-bv-Uuf" secondAttribute="top" id="id9-sr-LgY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Iw8-dT-n91"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="R2n-OC-riS" id="pKb-Bx-bAF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMV-f6-I5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1767" y="130"/>
         </scene>
     </scenes>
 </document>

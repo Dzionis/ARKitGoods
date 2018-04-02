@@ -19,7 +19,7 @@ class ProductDetailsTableViewCell: UITableViewCell {
         if let name = product.name {
             itemTitleLabel.text = name
         }
-        if let description = product.name {
+        if let description = product.details {
             itemDescriptionLabel.text = description
         }
         if let price = product.price {
