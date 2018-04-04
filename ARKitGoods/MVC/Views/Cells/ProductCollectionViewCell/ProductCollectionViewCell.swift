@@ -16,7 +16,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        itemImageView.layer.borderWidth = 0.3
+        itemImageView.layer.borderWidth = 0.6
         itemImageView.layer.borderColor = UIColor.lightGray.cgColor
         itemImageView.layer.cornerRadius = 4.0
     }

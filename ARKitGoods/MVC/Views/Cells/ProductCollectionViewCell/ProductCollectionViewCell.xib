@@ -21,7 +21,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WfN-9k-7yt">
-                        <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
+                        <rect key="frame" x="1" y="1" width="103" height="103"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="WfN-9k-7yt" secondAttribute="height" multiplier="1:1" id="Viy-N8-sgG"/>
                         </constraints>
@@ -56,11 +56,11 @@
             </view>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="HbA-YY-rTB" secondAttribute="bottom" id="Ip7-0x-ZC0"/>
-                <constraint firstItem="WfN-9k-7yt" firstAttribute="leading" secondItem="TWG-gb-LCf" secondAttribute="leading" id="JyS-ZW-4o5"/>
-                <constraint firstItem="WfN-9k-7yt" firstAttribute="top" secondItem="TWG-gb-LCf" secondAttribute="top" id="KQn-OV-HjT"/>
-                <constraint firstItem="HbA-YY-rTB" firstAttribute="top" secondItem="WfN-9k-7yt" secondAttribute="bottom" id="gan-C5-Tob"/>
+                <constraint firstItem="WfN-9k-7yt" firstAttribute="leading" secondItem="TWG-gb-LCf" secondAttribute="leading" constant="1" id="JyS-ZW-4o5"/>
+                <constraint firstItem="WfN-9k-7yt" firstAttribute="top" secondItem="TWG-gb-LCf" secondAttribute="top" constant="1" id="KQn-OV-HjT"/>
+                <constraint firstItem="HbA-YY-rTB" firstAttribute="top" secondItem="WfN-9k-7yt" secondAttribute="bottom" constant="1" id="gan-C5-Tob"/>
                 <constraint firstAttribute="trailing" secondItem="HbA-YY-rTB" secondAttribute="trailing" id="nAv-TJ-U7F"/>
-                <constraint firstAttribute="trailing" secondItem="WfN-9k-7yt" secondAttribute="trailing" id="o7h-GY-ytq"/>
+                <constraint firstAttribute="trailing" secondItem="WfN-9k-7yt" secondAttribute="trailing" constant="1" id="o7h-GY-ytq"/>
                 <constraint firstItem="HbA-YY-rTB" firstAttribute="leading" secondItem="TWG-gb-LCf" secondAttribute="leading" id="oU2-9P-GtV"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="IMn-FM-TFz"/>
