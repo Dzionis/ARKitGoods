@@ -25,6 +25,7 @@ class ProductDetailsViewController: UIViewController, InstantiatableFromStoryboa
     
     func configure(_ product: Product) {
         self.product = product
+        title = product.name
         cells = [.details, .buy]
     }
     
